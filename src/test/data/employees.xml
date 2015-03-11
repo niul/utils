@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<employees>
+	<employee>
+		<id>0</id>
+		<firstName>Joe</firstName>
+		<lastName>Bloggs</lastName>
+		<role>Developer</role>
+	</employee>
+	<employee>
+		<id>1</id>
+		<firstName>Joe</firstName>
+		<lastName>Schmoh</lastName>
+		<role>Developer</role>
+	</employee>
+	<employee>
+		<id>2</id>
+		<firstName>Jane</firstName>
+		<lastName>Doe</lastName>
+		<role>QA Engineer</role>
+	</employee>
+	<employee>
+		<id>3</id>
+		<firstName>Peter</firstName>
+		<lastName>Pan</lastName>
+		<role>Business Analyst</role>
+	</employee>
+	<employee>
+		<id>4</id>
+		<firstName>Bob</firstName>
+		<lastName>Smith</lastName>
+		<role>Manager</role>
+	</employee>
+</employees>
