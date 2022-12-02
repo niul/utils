@@ -1,6 +1,7 @@
 package com.niulbird.utils.xml;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -26,7 +27,7 @@ import javax.xml.transform.stream.StreamSource;
  * @author niul
  */
 public class XMLUtils {
-	public static Logger logger = Logger.getLogger("com.niulbird.utils");
+	public static Logger logger = LogManager.getLogger();
 	
 	/**
 	 * Transform an input XML string using provided XSLT file.
